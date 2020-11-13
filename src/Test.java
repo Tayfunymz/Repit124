@@ -30,7 +30,7 @@ public class Test {
         if (errorFound == 0) {
             System.out.println("CONGRATS PROJECT IS COMPLETE");
         } else {
-            System.out.println(errorFound + " solution was inccorect");
+            System.out.println("There are " + errorFound + " solutions that are incorrect.");
         }
 
         }
