@@ -6,7 +6,7 @@ public class JuliaSolution {
         //TODO: write your code below
         int [ ]reverse=new int[nums.length];
         for(int i=nums.length-1;i>=0;i--) {
-            for(int j=0;j>= nums.length-1;j++){
+            for(int j=0;j<=i;j++){
                 reverse[j]+=nums[i];
             }
 
