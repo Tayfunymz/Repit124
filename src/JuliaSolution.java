@@ -5,7 +5,7 @@ public class JuliaSolution {
         int[] nums = {4,3,2,44,1,100,55};
         //TODO: write your code below
         int [ ]reverse=new int[nums.length];
-        for(int i=nums.length-1;i>=0;i--) {
+        for(int i=nums.length-1;i>=0;i--) { 
             for(int j=0;j<=i;j++){
                 reverse[j]+=nums[i];
             }
@@ -20,11 +20,11 @@ public class JuliaSolution {
    // Then iterate through the nums array starting from the end going to the beggining 
    // and add each element to your new array.
 
-        System.out.println(Arrays.toString(nums));
+        System.out.println(Arrays.toString(nums)); // And here you are printing nums instead of reverse.
 
 
         // DO NOT TOUCH BELOW CODE PLEASE
         // IF you make a new array CHANGE return nums to -> return yournewarray
-        return nums;
+        return nums;  // ITS BECAUSE YOU ARE RETURNING nums AND YOUR NEW LIST IS CALLED reverse
     }
 }
