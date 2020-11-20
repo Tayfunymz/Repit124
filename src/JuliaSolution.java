@@ -8,7 +8,9 @@ public class JuliaSolution {
 
         for (int i = nums.length - 1; i >= 0; i--) {   // YOU HAD THIS PART CORRECT
 
-            // for (int j = ?; j < ?; j++ THIS IS THE ONLY PART YOU NEED TO FIX
+            for (int j = 0; j < i; j++) {
+                reverse[j]=nums[i];
+            }
         }
 
 
